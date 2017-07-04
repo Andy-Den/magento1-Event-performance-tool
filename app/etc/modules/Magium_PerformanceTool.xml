@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Magium_PerformanceTool>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Magium_PerformanceTool>
+    </modules>
+</config>

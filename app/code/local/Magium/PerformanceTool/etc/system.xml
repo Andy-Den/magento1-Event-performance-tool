@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <magium>
+            <label>Magium</label>
+        </magium>
+    </tabs>
+    <sections>
+        <magium>
+            <groups>
+                <performance_tool >
+                    <label>Performance Tool</label>
+                    <show_in_default>1</show_in_default>
+
+                    <fields>
+                        <enabled>
+                            <label>Enable Performance Tool</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                        </enabled>
+                        <trigger>
+                            <label>HTTP Header Trigger</label>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                        </trigger>
+                    </fields>
+                </performance_tool>
+            </groups>
+        </magium>
+    </sections>
+</config>
