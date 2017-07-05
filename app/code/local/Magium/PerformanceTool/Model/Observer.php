@@ -63,7 +63,8 @@ class Magium_PerformanceTool_Model_Observer
                 'query' => Mage::app()->getRequest()->getQuery(),
                 'scheme' => Mage::app()->getRequest()->getScheme(),
                 'method' => Mage::app()->getRequest()->getMethod(),
-                'params' => Mage::app()->getRequest()->getParams()
+                'params' => Mage::app()->getRequest()->getParams(),
+                'cookies' => $_COOKIE
             ];
         }
 
