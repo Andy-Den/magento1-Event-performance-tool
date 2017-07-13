@@ -72,6 +72,7 @@ class Magium_PerformanceTool_Model_Observer
         $this->events[] = [
             'timestamp' => microtime(true),
             'event' => $observer->getEvent()->getName(),
+            'backtrace' => debug_backtrace(),
             'subjects' => $subjects
         ];
 
